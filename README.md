@@ -1,1 +1,1 @@
-# This is my powershell learning repositary.
+# This is my PowerShell learning repositary.
