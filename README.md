@@ -4,7 +4,7 @@ This is a very basic powershell, I am creating this powershell program for my le
 
 This is a PowerShell repositary, with this powershell, any one can generate the hash value of any file on windows machine.
 
-# How to use this
+## How to use this
 
 1. Download the [get_hash](https://github.com/raviindia/get_hash/tree/main) repo from the github.
 2. Unzip it.
