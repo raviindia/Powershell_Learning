@@ -13,7 +13,7 @@ This is a PowerShell repositary, with this powershell, any one can generate the 
 5. Double click on the "Program.bat" file to run it.
 6. If the Powershell windows is closing automatically, Open Powershell as **Adminstrator** and run below command. [Read more about ExecutionPolicy here:](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.security/set-executionpolicy?view=powershell-7.4)
 ```
-Set-ExecutionPolicy RemoteSigned
+Set-ExecutionPolicy Unrestricted
 ```
 7. Copy path (Select the desired file and click **Ctrl+Shft+C** to copy path) of any file from the machine.
 8. Paste the file path at the prompt. ***Make sure double quotes is removed from it.***
