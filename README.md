@@ -9,10 +9,14 @@ This is a PowerShell repositary, with this powershell, any one can generate the 
 1. Download the [get_hash](https://github.com/raviindia/get_hash/tree/main) repo from the github.
 2. Unzip it.
 3. Copy the Get-FileHash folder anywhere you like.
-4. Open the get-FileHash folder
+4. Open the get-FileHash folder.
 5. Double click on the "Program.bat" file to run it.
-6. Copy path (Select the desired file and click **Ctrl+Shft+C** to copy path) of any file from the machine.
-7. Paste the file path at the prompt. ***Make sure double quotes is removed from it.***
+6. If the Powershell windows is closing automatically, Open Powershell as **Adminstrator** and run below command. [Read more about ExecutionPolicy here:](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.security/set-executionpolicy?view=powershell-7.4)
+```
+Set-ExecutionPolicy RemoteSigned
+```
+7. Copy path (Select the desired file and click **Ctrl+Shft+C** to copy path) of any file from the machine.
+8. Paste the file path at the prompt. ***Make sure double quotes is removed from it.***
 >This will not work:
 ```
 "C:\Users\lapto\Downloads\keycloak-24.0.2.zip"
